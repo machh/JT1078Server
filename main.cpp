@@ -39,10 +39,8 @@ int main() {
             return 0;
         }
     }
+    // machh 
 
-
-//    SetLogging("JT1078Server.log", true,Logger::LogLevel::DEBUG);
-//    SetLogging("JT1078Server.log", true, static_cast<muduo::Logger::LogLevel>(pConf->GetIntDefault("LogLevel", 1)));
     int LivePort = pConf->GetIntDefault("LiveListenPort", 20002);
     int nIdleSeconds = pConf->GetIntDefault("IdleSeconds", 10);
     int nThreadNum = pConf->GetIntDefault("ServerThreadNum", 8);
